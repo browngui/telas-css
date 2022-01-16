@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <title>Pagina inicial</title>
+</head>
+<body>
+    <div id= "container"> 
+        <form id="FrmCadastro" method="POST" action"#">
+            <div>
+                <label>Nome</label>
+            </div>
+            <div>
+                <input type="text" id="txtNome" maxlength="10" placeholder="Digite o primeiro nome" required>
+            </div>
+            
+            <div>
+                <Label>Sobrenome</Label>
+            </div>
+
+            <div>
+                <input type="text" id="txtsobrenome" maxlength="15" placeholder="Digite o sobrenome" required>
+            </div>
+
+            <div>
+                <label>Estado Civil</label>
+            </div>
+
+            <div>
+                <select id="selectestadocivil">
+                    <option value="Solteiro">Solteiro(a)</option>
+                    <option value="Casado">Casado(a)</option>
+                    <option value="Divorciado">Divorciada</option>
+                    <option value="Solitário" selected>Solitario(a)</option>
+                </select>
+            </div>
+
+            <div>
+                <label>Data de nascimento</label>
+            </div>
+            
+            <div>
+                <input type="date" id="dtnascimento">
+            </div>
+
+            <div>
+                <label>Vida financeira</label>
+            </div>
+
+            <div>
+                <label></label>
+            </div>
+
+
+
+            <div>
+                <select id="selectvidafinanceira">
+                    <option value="Rico">Rico(a)</option>
+                    <option value="Estável">Estável</option>
+                    <option value="Desastrosa" selected>Desastrosa</option>
+                    <option value="Desesperado">Desesperado(a)</option>-
+                </select>
+            </div>
+            
+                <br>
+
+            <div>
+                <button>Cadastrar</button>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html> 

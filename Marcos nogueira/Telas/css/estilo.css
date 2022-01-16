@@ -1,0 +1,16 @@
+body{
+    padding-top: 130px;
+    margin-left: 30%;
+    background-color: #CBD9EA;
+}
+
+.card{
+    box-shadow: 3px 6px 8px 3px  rgba(100, 100, 100, 0.3);
+}
+
+img{
+    height: 40%;
+    width: 40%;
+    margin-left: 35%;
+}
+

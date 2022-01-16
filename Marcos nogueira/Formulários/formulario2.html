@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Segundo formulário</title>
+
+        <style>
+            label{
+                font-weight: bolder;
+                color:#000;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 15px;
+            }
+
+            #textlogin:focus{
+                background-color:tomato
+
+            }
+
+            .campos{
+                margin-top: 10px;
+            }
+
+            .adireita{
+                float: right;
+            }
+
+            #container{
+                margin:auto;
+                width: 25%;
+            }
+
+        </style>
+    </head>
+        <body>
+            <div id="container">
+                <form id="frmcadastro" method="post" action="#">
+  
+                       <div class="campos">
+                        <label> Login</label>
+
+                           <input type="text" id="textlogin" maxlength="20" placeholder="Digite seu e-mail">
+                       </div>
+
+                    
+                       <div class="campos">
+                        <label>
+                            senha
+                           </label>
+                        <input type="password" id="textsenha" maxlength="20">
+                       </div>
+                       
+                       <div class="campos adireita"> 
+                           <button> Entrar</button>
+                       </div>
+                     
+
+                </form>
+            </div>
+        </body>
+</html>

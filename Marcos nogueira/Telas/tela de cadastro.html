@@ -1,0 +1,148 @@
+    <!DOCTYPE html>
+    <html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Tela de cadastro</title>
+        <link rel="stylesheet" href="./css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/estilo.css">
+
+    </head>
+    <body>
+        
+        <div class="container">
+        <div class="row">
+        
+            <div class="col-6">
+            <div class="card">
+            <div class="card-body">
+
+                <img src="cads.png">
+                <h1> Cadastre-se </h1> 
+                <form>
+                    <div class="form-group">
+                        <label for="nome"> Nome completo</label>
+                        <input class="form-control" type="text" id="nome" required>
+                        
+                    </div>
+
+                    <div class="form-group">
+                        <label for="CPF">CPF</label>
+                        <input class="form-control" type="tel" id="CPF" required>
+                    </div>
+
+
+                    <div class="form-group">
+                        <label for="Email"> Email</label>
+                        <input class="form-control" type="email" id="email" required>
+                        
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="dataNasc"> Data de nascimento</label>
+                        <input class="form-control" type="date" id="dataNasc" required>
+
+                    </div>
+                    
+                  
+                    <div class="form-group">
+                        <label for="Ecivil"> Estado civil</label>
+                    </div>
+
+                    <div class="form-group">
+                        <select required>
+                            <option value="Selecione" selected> Selecione</option>
+                            <option value="Casado"> Casado(a)</option>
+                            <option value="Solteiro"> Solteiro(a)</option>
+                            <option value="Divorciado"> Divorciado(a)</option>
+                            <option value="Viuvo"> Viúvo(a)</option>
+                        </select>
+
+                    </div>
+
+                    <br>
+
+                    <div class="form-group">
+                        <label for="Endereço"> Endereço</label>
+                        <input class="form-control" type="text" id="Endereço">
+                        
+                    </div>
+
+                    
+                    <div class="form-group">
+                        <label for="bairro"> Bairro</label>
+                        <input class="form-control" type="text" id="bairro">
+                        
+                    </div>
+
+
+                    <div class="form-group">
+                        <label for="CEP"> CEP</label>
+                        <input class="form-control" type="tel" id="txtCEP" maxlength="9">
+                        
+                    </div>
+
+                    <div class="form-group">
+                        <label for="cidade"> Cidade</label>
+                        <input class="form-control" type="text" id="cidade">
+                        
+                    </div>
+
+                </br>
+                    <div class="form-group">
+                        <label for="estado" style="font-size: 17px;"> UF: </label>
+                        <select>
+                            <option value="Selecione" selected>Selecione</option>
+                            <option value="AC">AC</option>
+                            <option value="AL">AL</option>
+                            <option value="AP">AP</option>
+                            <option value="AM">AM</option>
+                            <option value="BA">BA</option>
+                            <option value="CE">CE</option>
+                            <option value="DF">DF</option>
+                            <option value="ES">ES</option>
+                            <option value="GO">GO</option>
+                            <option value="MA">MA</option>
+                            <option value="MT">MT</option>
+                            <option value="MS">MS</option>
+                            <option value="MG">MG</option>
+                            <option value="PA">PA</option>
+                            <option value="PB">PB</option>
+                            <option value="PR">PR</option>
+                            <option value="PE">PE</option>
+                            <option value="PI">PI</option>
+                            <option value="RJ">RJ</option>
+                            <option value="RN">RN</option>
+                            <option value="RS">RS</option>
+                            <option value="RO">RO</option>
+                            <option value="RR">RR</option>
+                            <option value="SC">SC</option>
+                            <option value="SP">SP</option>
+                            <option value="SE">SE</option>
+                            <option value="TO">TO</option>
+                        </select>
+                        
+                    </div>
+
+
+                    <div class="form-group">
+                        <input type="checkbox" id="check" required> 
+                        <label for="">Li e concordo com os <a href="" target="blank">termos </a> </label>
+                    </div>
+
+                    <div class="form-group text-left">
+                        <button class="btn btn-primary" type="submit"> Cadastrar</button>
+                    </div>
+
+                    </div>
+                </form>
+            </div>
+            </div>
+            </div>
+        </div>
+
+        </div>
+
+    </body>
+    </html>

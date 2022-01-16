@@ -1,0 +1,44 @@
+.bdy{
+    background-color: #A9A9A9;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.tbl{
+
+    width: 60%;
+    padding: auto;
+    margin: auto;
+    border-spacing: 0px;
+
+}
+
+.th{
+    background-color: rgba(0, 0, 255, 0.699);
+    font-weight: bolder;
+    border: 1px solid #000000;
+    text-align: center;
+}
+
+.tb{
+    color:#fff;
+    text-align: center;
+}
+
+.tr{
+    border: 1px solid #000000;
+}
+
+.td{
+    border: 10px solid #000000;
+}
+
+.letra{
+    color: black;
+    background-color: #fff;
+}
+
+.letraR{
+    color: red;
+    background-color: #fff;
+}
